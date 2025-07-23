@@ -4,29 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- noto serif font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- inter font -->
+
+    
+    
     <title>Assignment 2</title>
 </head>
 <!-- body -->
-<body class="max-w-[1440px] mx-auto">
+<body class="overflow-x-hidden">
     <!-- header -->
-    <header class="max-w-[1140px] mx-auto">
+    <header class="max-w-[1140px] w-full mx-auto">
         <!-- navbar -->
-        <nav class="flex justify-between items-center w-full  mx-auto mt-[30px] px-4">
+        <nav class="flex justify-between items-center w-full mb-[80px] mt-[30px] px-4">
             <!-- navbar logo -->
             <div>
                 <img class="w-[63px] md:w-[135px]" src="images/logo.png" alt="">
             </div>
             <!-- navbar links -->
             <div>
-                <div class="flex gap-[48px]">
-                    <a class="font-bold hidden" href="">Home</a>
-                    <a class="text-[#8987A1] hidden" href="">Shop</a>
-                    <a class="text-[#8987A1] hidden" href="">About Us</a>
-                    <a class="flex items-center" href=""><img class="w-[40px] md:w-[50px]" src="images/icons8-shopping-cart-32.png" alt="">
-                    <h3 class="text-[20px] md:text-3xl">Cart ($56)</h3></a>
+                <div class="items-center md:flex gap-[48px]">
+                    <a class="font-bold hidden md:flex" href="">Home</a>
+                    <a class="text-[#8987A1] hidden md:flex" href="">Shop</a>
+                    <a class="text-[#8987A1] hidden md:flex" href="">About Us</a>
+                    <a class="flex items-center" href=""><img class="w-[30px] md:w-[40px]" src="images/icons8-shopping-cart-32.png" alt="">
+                    <h3 class="text-[20px] md:text-2xl">Cart ($56)</h3></a>
                 </div>
             </div>
         </nav>
+        <!-- Banner -->
+        <div class="flex flex-col-reverse md:flex-row items-center w-full ">
+            <!-- title and paragraph -->
+            <div class="w-full md:w-full px-4">
+                <h3 class="text-[24px] md:text-5xl md:text-[64px] font-['Noto_Serif'] font-bold mt-[40px] md:mt-[70px] mb-[20px]">ALWAYS <span class="text-[#E95A08]">FRESH</span> <br> <span class="text-[#E95A08]">FLOWERS</span></h3>
+                <p class="text-[14px] md:text-[22px] text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+                </p>
+            </div>
+         <!-- banner image -->
+            <div class="w-full">
+                <img class="w-full " src="images/hero-flower.png" alt="">
+            </div>
+        </div>
     </header>
     <!-- main -->
     <main>
